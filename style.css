@@ -1,0 +1,125 @@
+h1{
+    font-family: 'Cooper Hewitt Book', sans-serif;
+    color:#365B6D;
+}
+
+body{
+    font-family: 'Montserrat';
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.h2-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #365B6D;
+    text-align: center;
+    line-height: 2; 
+    font-size: 20px;
+    font-weight: bold;
+    width: 93%;
+}
+
+.h2-educacio {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #365B6D;
+    text-align: center;
+    line-height: 2; 
+    font-size: 20px;
+    font-weight: bold;
+    width: 93%;
+}
+
+.h3-montserrat{
+    font-family: 'Montserrat', sans-serif;
+    color: #365B6D;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.p-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: #365B6D;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.dates{
+    font-family: 'Montserrat', sans-serif;
+    color: #365B6D;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.1;
+}
+
+.progBar{
+    appearance: none;
+    width: 50%;
+    height: 10px;
+}
+
+.progBar::-webkit-progress-bar {
+    background-color: #1D4355;
+}
+
+.progBar::-webkit-progress-value {
+    background:  #93A8A2;
+}
+
+.tabulate {
+    text-indent: 20px;
+}
+
+.rectangle1{
+    width: 50px; 
+    height: 900px; 
+    background: #365B6D;
+}
+
+.rectangle2{
+    padding-left: 25px;
+    align-self: left;
+    width: 350px; 
+    height: 900px; 
+    background: #C9D3D8;
+}
+
+.rectangle3{
+    padding-left: 25px;
+    align-self: right;
+    width: 350px; 
+    height: 900px; 
+    background: white;
+}
+
+
+#container1{
+    font-family: 'Montserrat';
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;                  
+    flex-direction: row;            
+    flex-wrap: nowrap;              
+    justify-content: space-between;
+    background-color: white;
+    width: 700px;
+    height: 900px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#columna1 {
+    display: flex;
+    align-items: center;
+    line-height: 0.3;
+}
+
+#columna1 img {
+    margin-right: 20px;
+}
+
+column2{
+    line-height: 0.3;
+}
